@@ -1,0 +1,545 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-image: linear-gradient(#430460, #660099);
+    color: black;
+    width: 100%;
+    height: 5em;
+    display: flex;
+    text-align: center; 
+    position: sticky;
+    top: 0px;
+    /*animation: header 5s ease-in-out;*/
+    box-shadow: 0px 0px 10px aliceblue;
+}
+
+@keyframes tituloTop{
+    0%,18%{
+        content: "Cursos On-line e Presenciais!";
+    }
+
+    21%,40%{
+        content: "Imaginação Não Tem Limites";
+    }
+    41%,60%{
+        content: "Crie O Que Quiser!";
+    }
+    61%,80%{
+        content: "Não Perca Essa Oportunidade!";
+    }
+    81%, 100%{
+        content: "Fábrica De Melhorias";
+    }
+}
+
+@keyframes rocket {
+    0%{height: 20em;
+        transform: translate(-50em, 60em);
+    }
+    40%{
+        height: 20em;
+        transform: translate(-52%, 0);
+    }
+    60%{
+        height: 15em;
+        transform: translate(-52%, -2em);
+    }
+    100%{
+        transform: translate(-43em, -5em);
+    }
+}
+
+@keyframes header {
+    0%{
+        height: 100vh;
+    }
+    60%{
+        height: 100vh;
+    }
+    100%{
+        height: 13vh;
+    }
+}
+
+@keyframes topFadeIn {
+    0%{
+        opacity: 0;
+    }
+    90%{
+        opacity: 0;   
+    }
+    100%{
+        opacity: 100;
+    }
+}
+
+@keyframes title {
+    0%{
+        filter: opacity(0);
+    }
+    40%{
+        filter: opacity(0);
+        font-size: 3em;
+        top: 45%;
+        visibility: visible;
+    }
+    60%{
+        filter: opacity(100);
+        font-size: 3em;
+        top: 50%;
+    }
+    70%{
+        visibility: hidden;
+        filter: opacity(0);
+    }
+}
+
+nav{
+    width: 50em;
+    height: 1.5em;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, 0.7em);
+    text-align: center;
+    background-color: #046edb;
+    padding: 1em;
+    border-radius: 2em;
+    animation: topFadeIn 5s ease-in-out;
+    opacity: 100;
+}
+
+.top{
+    height: 35em;
+    background-image: linear-gradient(#0158b0, #046edb, #74a6d8);
+    padding-top: 1em;
+    width: 100%;
+    box-shadow: 1px 1px 15px black;
+}
+
+#tit1{
+    font-family:monospace;
+    font-size: 4em;
+    color: aliceblue;
+    text-shadow: 3px 3px 10px rgb(2, 2, 67);
+}
+
+#tit1::after{
+    content: "";
+    animation: tituloTop 20s infinite;
+}
+
+.topConteudo{
+    display: flex;
+    justify-content: center;
+}
+
+.left{
+    width: 13em;
+    margin: 2em;
+    font-size: 1.5em;
+    justify-content: center;
+    display: flex;
+}
+
+#nina{
+    height: 17.8em;
+}
+
+.right{
+    width: 40em;
+    height: 12em;
+    margin: 1em;
+    font-size: 1.5em;
+}
+
+.ballon{
+    width: 17em;
+    color: aliceblue;
+    background-image: linear-gradient(#8711c1,#4f0276);
+    padding: 8px;
+    border-radius: 1em;
+    border: 2px solid #2a033c;
+    box-shadow: 0px 0px 10px #2a033c;
+    text-shadow: 2px 2px 4px black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.linha1, .linha3{
+    height: 4em;
+    width: 100%;
+}
+
+.linha2, .linha4{
+    height: 4em;
+    width: 100%;
+}
+
+#balao2, #balao4{
+    margin-left: 19em;
+}
+
+#fog{
+    opacity: 10%;
+    position: relative;
+    transform: translate(-20em, 0);
+}
+
+#TitAnimation{
+    color: aliceblue;
+    animation: title 5s ease-in-out;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-family: monospace;
+    font-size: 2em;
+    visibility: hidden;
+}
+
+#logo{
+    filter: invert(100);
+    position: relative;
+    /*animation: rocket 5s ease-in-out;*/
+    left: 50%;
+    top: 4em;
+    transform: translate(-43em, -5em);
+    border-radius: 0;
+    height: 5em;
+}
+
+a{
+    color: aliceblue;
+    margin: 1em;
+    font-size: 1.5em;
+    position: relative; 
+    text-decoration: none;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.content{
+    text-align: center;
+    width: 100%;
+    top: 10em;
+}
+
+img{
+    height: 30em;
+    margin: 1em;
+    border-radius: 2em;
+}
+
+#copy{
+    background-color: #00000029;
+    color: rgb(0, 0, 0);
+    font-size: 1.5em;
+    padding: 1em;
+    border-radius: 3em;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 30em;
+    position: relative;
+    display: flexbox;
+    left: 50%;
+    transform: translate(-50%, 0);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#professores{
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+}
+
+#btnFaleConosco{
+    background-color: #224627;
+    border-radius: 1em;
+    border: 2px solid rgb(1, 29, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    font-style: oblique;
+    color: aliceblue;
+    height: 3em;
+    width: 9em;
+    margin-top: 1em;
+}
+
+#btnFaleConosco:hover{
+    background-color: black;
+    border: 2px solid aliceblue;
+    cursor: pointer;
+}
+
+/*  SEGUNDA PARTE DA PÁGINA // MIDDLE */
+
+#tit2{
+    font-family:monospace;
+    font-size: 4em;
+    background-image: linear-gradient(#7704db,#a069c8);
+    color: aliceblue;
+    text-shadow: 2px 2px 2px black;
+    height: 2em;
+    align-content: center;
+}
+
+.midContent{
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    height: 40em;
+    background-image: linear-gradient(rgb(151, 205, 255), rgb(104, 88, 177), rgb(47, 0, 76));
+}
+
+.aboutUs{
+    background-image: linear-gradient(#0153a5,#0262c1,#6999c8);
+    height: 30em;
+    width: 75em;
+    display: flex;
+    border-radius: 3em;
+    border: 4px solid #053e63 ;
+    color: aliceblue;
+    text-shadow: 1px 1px 1px black;
+    box-shadow: 4px 4px 15px black;
+    margin-top: 3em;
+}
+
+.aboutLeft{
+    width: 30%;
+    align-content: center;
+}
+
+.aboutRight{
+    width: 60%;
+    padding: 1em;
+    border-radius: 1em;
+    font-size: 1.5em;
+    align-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 1em;
+    background-color: rgba(0, 0, 0, 0.297);
+}
+
+#imgTurma{
+    height: 27em;
+    border: 4px solid #053e63;
+    box-shadow: 0px 0px 15px rgb(170, 198, 255);
+}
+
+.imgs{
+    background-image: url(fundoImgs.png);
+    height: 70em;
+    padding: 2em;
+}
+
+#img1, #img2, #img3, #img4{
+    box-shadow: 0px 0px 15px rgb(0, 0, 0);
+}
+#img1:hover{
+    height: 32em;
+    margin: 0em;
+    transition: 0.3s ease-in-out;
+}
+#img2:hover{
+    height: 32em;
+    margin: 0em;
+    transition: 0.3s ease-in-out;
+}
+#img3:hover{
+    height: 32em;
+    margin: 0em;
+    transition: 0.3s ease-in-out;
+}
+#img4:hover{
+    height: 32em;
+    margin: 0em;
+    transition: 0.3s ease-in-out;
+}
+
+/* PARTE DO FINAL   // FINAL */
+
+.final{
+    background-image: linear-gradient(rgb(49, 0, 80), rgb(0, 13, 76));
+    height: 60em;
+}
+
+#tit3{
+    font-family:monospace;
+    font-size: 4em;
+    background-image: linear-gradient(#047adb,#69c2c8);
+    color: aliceblue;
+    text-shadow: 2px 2px 2px black;
+    height: 2em;
+    align-content: center;
+}
+
+.finalContent{
+    color: aliceblue;
+    margin-top: 5em;
+    display: flex;
+    height: 35em;
+    justify-content: center;
+    align-content: center;
+}
+
+.finalSquare{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.finalLeft{
+    width: 40em;
+    height: 40em;
+    background-color: rgba(0, 0, 0, 0.244);
+    padding: 1em;
+    border-radius: 2em;
+    margin-right: 2em;
+    align-content: center;
+    display: grid;
+}
+
+#titRedes{
+    font-family:monospace;
+    color: aliceblue;
+    font-size: 3em;
+    text-shadow: 0px 0px 10px rgb(0, 195, 255);
+    margin-bottom: 1em;
+}
+
+.finalRight{
+    width: 50%;
+    align-content: center;
+    margin-left: 2em;
+    background-color: rgba(0, 0, 0, 0.261);
+    border-radius: 2em;
+}
+
+.greenSquare{
+    background-image: radial-gradient( transparent,rgba(0, 255, 0, 0.276));
+    box-shadow: 0px 0px 10px lime;
+    border: 2px solid aliceblue;
+    border-radius: 2em;
+    height: 20em;
+    margin-bottom: 2em;
+}
+
+.purpleSquare{
+    background-image: radial-gradient(transparent, rgba(242, 0, 255, 0.266));
+    box-shadow: 0px 0px 10px magenta;
+    border: 2px solid aliceblue;
+    border-radius: 2em;
+    height: 15em;
+}
+
+.finalContentTop{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2em;
+    margin-top: 2em;
+}
+
+.finalContentBottom{
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+}
+
+#viaWhatsapp{
+    background-image: linear-gradient(#29cf3f,#0f8a1f) ;
+    text-shadow: 1px 1px 1px black;
+    box-shadow: 0px 0px 10px aliceblue;
+    border: 3px solid aliceblue;
+    color: aliceblue;
+    height: 5em;
+    width: 9em;
+    border-radius: 1em;
+    margin-top: 3em;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+#viaWhatsapp:hover{
+    background-image: linear-gradient(#197926,#073a0d) ;
+    cursor: pointer;
+}
+
+#titFale{
+    font-family: monospace;
+    font-size: 2.5em;
+    color: aliceblue;
+    text-shadow: 0px 0px 10px lime;
+}
+
+#titVerRedes{
+    font-family: monospace;
+    font-size: 2.5em;
+    width: 18em;
+    color: aliceblue;
+    text-shadow: 0px 0px 10px rgb(221, 0, 255);
+}
+
+#logoZap{
+    height: 7em;
+    border-radius: 0;
+}
+
+#instaLogo{
+    height: 6em;
+    border-radius: 0;
+}
+
+#faceLogo{
+    height: 6em;
+}
+
+#btnInsta{
+    background-image: linear-gradient(rgb(71, 71, 159), rgb(247, 0, 255), rgb(255, 255, 95));
+    border: 3px solid aliceblue;
+    box-shadow: 0px 0px 10px rgb(252, 96, 255);
+    text-shadow: 1px 1px 1px black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    border-radius: 1em;
+    height: 3em;
+    width: 7em;
+    margin-right: 1em;
+    margin-top: 4em;
+}
+
+#btnFace{
+    background-image: linear-gradient(rgb(64, 64, 159),rgb(32, 32, 77));
+    border: 3px solid aliceblue;
+    box-shadow: 0px 0px 10px rgb(111, 111, 255);
+    text-shadow: 1px 1px 1px black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    border-radius: 1em;
+    height: 3em;
+    width: 7em;
+    margin-top: 4em;
+}
+
+#btnFace:hover{
+    background-image: linear-gradient(rgb(33, 33, 82),rgb(14, 14, 35));
+    cursor: pointer;
+}
+
+#btnInsta:hover{
+    background-image: linear-gradient(rgb(45, 45, 101), rgb(155, 0, 161), rgb(161, 161, 62));
+    cursor: pointer;
+}
+
+.btnsRedes{
+    justify-content: center;
+}
+
+footer{
+    background-color: black;
+    color: aliceblue;
+    height: 2em;
+    font-family: monospace;
+    width: 100%;
+    font-size: 2em;
+    text-align: center;
+    align-content: center;
+}

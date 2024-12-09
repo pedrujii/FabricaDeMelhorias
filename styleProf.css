@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    background-color: #23004c;
+}
+
+body{
+    text-align: center;
+    background-image: linear-gradient(#8300C6, #3C005B, #23004c);
+    height: 100%;
+}
+
+header{
+    background-color: #29003d;
+    color: aliceblue;
+    height: 2em;
+    align-content: center;
+    text-align: center;
+    font-size: 2em;
+    font-family: monospace;
+}
+
+.content{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    justify-content: center;
+    display: grid;
+    text-align: center;
+}
+
+.pessoa{
+    background-image: linear-gradient(#8504db, #3c0454);
+    color: aliceblue;
+    border-radius: 2em;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    height: 15em;
+    width: 30em;
+    margin-top: 3em;
+    padding: 1em;
+    margin: 2em;
+    border: 3px solid #2c0042;
+}
+
+.esq{
+    float: left;
+    width: 12em;
+    display: grid;
+    justify-content: center;
+    background-image: radial-gradient(black, );
+    border-radius: 1em;
+}
+
+h1{
+    color: rgb(197, 236, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 0.5em;
+}
+
+.dir{
+    width: 60%;
+    height: 15em;
+    background-color:#2c0042;
+    border-radius: 1em;
+    margin-left: 1em;
+}
+
+#peapFot{
+    height: 10em;
+    border-radius: 100%;
+    position: relative;
+    filter: drop-shadow(10px 10px 7px #29003d);
+}
+
+#name{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2em;
+    text-shadow: 2px 2px 3px black;
+}
+
+#desc{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,0);
+    margin-top: 1em;
+    width: 13em;
+}
+
+.botoes{
+    position: relative;
+    transform: translate(0, 1em);
+}
+
+.ptprof{
+    display: flex;
+}
+
+#title2{
+    position: relative;
+}
+
+.ptEquipe{
+    display: flex;
+    justify-content: center;
+}
+
+.ptFundadores{
+    display: flex;
+}
+
+.fundador{
+    background-image: linear-gradient(#046EDB, #042c54);
+    color: aliceblue;
+    border-radius: 2em;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    height: 15em;
+    width: 30em;
+    margin-top: 3em;
+    padding: 1em;
+    margin: 2em;
+    border: 3px solid #000142;
+}
+
+.dirF{
+    width: 60%;
+    height: 15em;
+    background-color:#080042;
+    border-radius: 1em;
+    margin-left: 1em;
+}
+
+#fundFot{
+    height: 10em;
+    border-radius: 100%;
+    position: relative;
+    filter: drop-shadow(10px 10px 7px #0c003d);
+}

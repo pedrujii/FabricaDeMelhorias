@@ -146,3 +146,38 @@ h1{
     position: relative;
     filter: drop-shadow(10px 10px 7px #0c003d);
 }
+
+@media screen and (max-width: 1200px) {
+    .ptprof{
+        display: grid;
+        justify-content: center;
+    }
+    .ptFundadores{
+        display: grid;
+        justify-content: center;
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+    .ptprof{
+        display: grid;
+        justify-content: center;
+    }
+    .ptFundadores{
+        display: grid;
+        justify-content: center;
+    }
+    .pessoa{
+        width: 23em;
+    }
+    .fundador{
+        width: 22em;
+    }
+    #peapFot{
+        height: 8em;
+    }
+    #fundFot{
+        height: 8em;
+    }
+}

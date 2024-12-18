@@ -3,6 +3,8 @@
     margin: 0;
 }
 
+
+
 header{
     background-image: linear-gradient(#430460, #660099);
     color: black;
@@ -12,7 +14,7 @@ header{
     text-align: center; 
     position: sticky;
     top: 0px;
-    /*animation: header 5s ease-in-out;*/
+    /*animation: header 5s ease-in-out; */
     box-shadow: 0px 0px 10px aliceblue;
 }
 
@@ -117,6 +119,8 @@ nav{
     padding-top: 1em;
     width: 100%;
     box-shadow: 1px 1px 15px black;
+    display: grid;
+    justify-content: center;
 }
 
 #tit1{
@@ -133,11 +137,10 @@ nav{
 
 .topConteudo{
     display: flex;
-    justify-content: center;
 }
 
 .left{
-    width: 13em;
+    width: 12em;
     margin: 2em;
     font-size: 1.5em;
     justify-content: center;
@@ -149,7 +152,7 @@ nav{
 }
 
 .right{
-    width: 40em;
+    width: 30em;
     height: 12em;
     margin: 1em;
     font-size: 1.5em;
@@ -313,7 +316,7 @@ img{
     width: 60%;
     padding: 1em;
     border-radius: 1em;
-    font-size: 1.5em;
+    font-size: 1.3em;
     align-content: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 1em;
@@ -330,6 +333,7 @@ img{
     background-image: url(fundoImgs.png);
     height: 70em;
     padding: 2em;
+    display: grid;
 }
 
 #img1, #img2, #img3, #img4{
@@ -380,10 +384,12 @@ img{
     height: 35em;
     justify-content: center;
     align-content: center;
+    margin: 0;
 }
 
 .finalSquare{
     display: flex;
+    margin-top: 5em;
     justify-content: center;
     align-content: center;
 }
@@ -542,4 +548,239 @@ footer{
     font-size: 2em;
     text-align: center;
     align-content: center;
+}
+
+@media screen and (max-width:1300px) {
+
+    #balao2, #balao4{
+        margin-left: 17em;
+    }
+    .ballon{
+        width: 14em;
+    }
+    .linha2, .linha3{
+        height: 5em;
+    }
+    .top{
+        height: 40em;
+    }
+    #nina{
+        margin-top: 4.4em;
+    }
+    .aboutUs{
+        width: 65em;
+    }
+    .aboutRight{
+        margin-left: 4em;
+        width: 50%;
+        font-size: large;
+    }
+    .finalSquare{
+        display: grid;
+    }
+    .final{
+        height: 105em;
+        justify-content: center;
+
+    }
+    .finalContent{
+        align-content: center;
+        height: auto;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    nav{
+        width: 23.5em;
+        display: flex;
+    }
+    body{
+        display: grid;
+    }
+    a{
+        font-size: medium;
+        margin: 0.4em;
+    }
+    #content{
+        display: grid;
+        justify-content: center;
+    }
+    .top{
+        height: 35em;
+        display: grid;
+        text-align: center;
+        justify-content: center;
+        box-shadow: none;
+    }
+    #topConteudo{
+        display: flex;
+    }
+    .left{
+        width: 0px;
+        margin: 0;
+    }
+    .right{
+        display: grid;
+        width: 22em;
+        justify-content: center;
+    }
+    .linha1{
+        height: 4em;
+    }
+    .linha2{
+        height: 5em;
+    }
+    .balao{
+        background-image: linear-gradient(#8611c126,#4f0276);
+    }
+    #balao1, #balao3{
+        margin: 0;
+        width: 10em;
+        font-size: medium;
+    }
+    #balao2, #balao4{
+        margin-left: 12em;
+        width: 10em;
+        font-size: medium;
+    }
+    #nina{
+        height: 24.4em;
+        margin-left: 3em;
+        visibility: hidden;
+    }
+    #imgs{
+        display: grid;
+        animation: none;
+        justify-content: center;
+        height: 90em;
+    }
+    #img1, #img2, #img3, #img4{
+        height: 18em;
+    }
+    #img1:hover{
+        transition: none;
+        height: 18em;
+        margin: 1em;
+    }
+    #img2:hover{
+        transition: none;
+        height: 18em;
+        margin: 1em;
+    }
+    #img3:hover{
+        transition: none;
+        height: 18em;
+        margin: 1em;
+    }
+    #img4:hover{
+        transition: none;
+        height: 18em;
+        margin: 1em;
+    }
+    #filas{
+        display: grid;
+    }
+
+    #titTop{
+        justify-content: center;
+        text-align: center;
+        display: grid;
+        align-content: center;
+    }
+    #tit1{
+        font-size: 2em;
+    }
+    .midContent{
+        display: grid;
+        height: 50em;
+    }
+    #txtMid{
+        width: 18em;
+    }
+    .aboutUs{
+        width: 35em;
+        height: 70em;
+        justify-content: center;
+        align-content: center;
+        display: grid;
+        font-size: 0.7em;
+    }
+    .aboutLeft{
+        width: 0;
+    }
+    .aboutRight{
+        width: 18em;
+        text-align: center;
+        margin: 0;
+    }
+    #imgTurma{
+        visibility: hidden;
+        position: absolute;
+    }
+    #tit3{
+        font-size: 2em;
+    }
+    .final{
+        height: 77em;
+        display: grid;
+    }
+    .finalContent{
+        display: grid;
+        align-content: center;
+        justify-content: center;
+    }
+    .finalLeft{
+        width: 22em;
+        justify-content: center;
+    }
+    .greenSquare{
+        width: 20em;
+        margin-left: 2em;
+    }
+    #titFale{
+        font-size: 1.5em;
+    }
+    .purpleSquare{
+        width: 22em;
+        text-align: center;
+        align-content: center;
+        justify-content: center;
+        margin-left: 1.2em;
+    }
+    #instaLogo{
+        height: 5em;
+    }
+    #faceLogo{
+        height: 4.6em;
+    }
+    .finalContentBottom{
+        width: 20em;
+        margin-left: 1em;
+    }
+    #titVerRedes{
+        font-size: 1.5em;
+        width: 100%;
+    }
+    #btnInsta{
+        margin-right: 0;
+    }
+    #btnFace{
+        margin-left: -1em;
+        margin-right: 1em;
+    }
+    .finalSquare{
+        display:grid;
+        justify-content: center;
+        align-content: center;
+    }
+    .finalRight{
+        width: 22em;
+        height: 22em;
+        margin-top: 3em;
+    }
+    iframe{
+        width: 20em;
+        height: 20em;
+    }
 }

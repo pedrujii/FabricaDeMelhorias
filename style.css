@@ -3,8 +3,6 @@
     margin: 0;
 }
 
-
-
 header{
     background-image: linear-gradient(#430460, #660099);
     color: black;
@@ -14,7 +12,7 @@ header{
     text-align: center; 
     position: sticky;
     top: 0px;
-    /*animation: header 5s ease-in-out; */
+    animation: header 5s ease-in-out; 
     box-shadow: 0px 0px 10px aliceblue;
 }
 
@@ -118,7 +116,6 @@ nav{
     background-image: linear-gradient(#0158b0, #046edb, #74a6d8);
     padding-top: 1em;
     width: 100%;
-    box-shadow: 1px 1px 15px black;
     display: grid;
     justify-content: center;
 }
@@ -130,6 +127,9 @@ nav{
     text-shadow: 3px 3px 10px rgb(2, 2, 67);
 }
 
+#titTop{
+    background-color: #0158b0;
+}
 #tit1::after{
     content: "";
     animation: tituloTop 20s infinite;
@@ -140,7 +140,7 @@ nav{
 }
 
 .left{
-    width: 12em;
+    width: 6em;
     margin: 2em;
     font-size: 1.5em;
     justify-content: center;
@@ -148,7 +148,8 @@ nav{
 }
 
 #nina{
-    height: 17.8em;
+    height: 20.35em;
+    margin-right: 8em;
 }
 
 .right{
@@ -205,7 +206,7 @@ nav{
 #logo{
     filter: invert(100);
     position: relative;
-    /*animation: rocket 5s ease-in-out;*/
+    animation: rocket 5s ease-in-out;
     left: 50%;
     top: 4em;
     transform: translate(-43em, -5em);
@@ -381,12 +382,12 @@ img{
     color: aliceblue;
     margin-top: 5em;
     display: flex;
+    width: 100%;
     height: 35em;
     justify-content: center;
     align-content: center;
     margin: 0;
 }
-
 .finalSquare{
     display: flex;
     margin-top: 5em;
@@ -550,7 +551,7 @@ footer{
     align-content: center;
 }
 
-@media screen and (max-width:1300px) {
+@media screen and (max-width:1310px) {
 
     #balao2, #balao4{
         margin-left: 17em;
@@ -589,6 +590,62 @@ footer{
         margin: 0;
     }
 }
+@media screen and (max-width:1220px) {
+    .top{
+        height: 41em;
+        display: grid;
+        justify-content: baseline;
+    }
+    .left{
+        width: 10em;
+    }
+    .right{
+        width: 18em;
+        margin-top:-2em;
+    }
+    #titTop{
+        background-color: #0158b0;
+        width: 100%;
+    }
+    #nina{
+        margin-top: 5em;
+        margin-left: 6em;
+    }
+    #balao2, #balao4{
+        margin: 0;
+    }
+    .linha1, .linha2, .linha3, .linha4{
+        width: 100%;
+    }
+    #balao1, #balao2, #balao3, #balao4{
+        width: 19em;
+        margin-top: 2.5em;
+    }
+    #balao4{
+        margin-top: 2.9em;
+    }
+    
+    .aboutUs{
+        width: 50em;
+        height: 35em;
+    }
+    #imgTurma{
+        height: 20em;
+    }
+    .aboutRight{
+        width: 100%;
+    }
+    .aboutLeft{
+        width: 25%;
+    }
+    .imgs{
+        height: 140em;
+        justify-content: center;
+    }
+    .fila1, .fila2{
+        display: grid;
+    }
+}
 
 @media screen and (max-width: 900px) {
     nav{
@@ -624,6 +681,8 @@ footer{
         display: grid;
         width: 22em;
         justify-content: center;
+        margin-top:0;
+
     }
     .linha1{
         height: 4em;
@@ -700,7 +759,7 @@ footer{
     }
     .aboutUs{
         width: 35em;
-        height: 70em;
+        height: 60em;
         justify-content: center;
         align-content: center;
         display: grid;
@@ -719,7 +778,7 @@ footer{
         position: absolute;
     }
     #tit3{
-        font-size: 2em;
+        font-size: 3em;
     }
     .final{
         height: 77em;
@@ -729,24 +788,35 @@ footer{
         display: grid;
         align-content: center;
         justify-content: center;
+        width: 100%;
+    }
+    .finalSquare{
+        display: grid;
+        justify-content: center;
+        width: 100%;
     }
     .finalLeft{
         width: 22em;
         justify-content: center;
+        align-content: center;
+        margin: 0;
     }
     .greenSquare{
+        margin-left: 4%;
         width: 20em;
-        margin-left: 2em;
     }
     #titFale{
         font-size: 1.5em;
+    }
+    #titRedes{
+        font-size: 1.8em;
+        margin: 1em;
     }
     .purpleSquare{
         width: 22em;
         text-align: center;
         align-content: center;
         justify-content: center;
-        margin-left: 1.2em;
     }
     #instaLogo{
         height: 5em;
@@ -769,15 +839,13 @@ footer{
         margin-left: -1em;
         margin-right: 1em;
     }
-    .finalSquare{
-        display:grid;
-        justify-content: center;
-        align-content: center;
-    }
     .finalRight{
         width: 22em;
+        display: grid;
+        justify-content: center;
         height: 22em;
         margin-top: 3em;
+        margin-left: 4%;
     }
     iframe{
         width: 20em;

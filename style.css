@@ -12,7 +12,7 @@ header{
     text-align: center; 
     position: sticky;
     top: 0px;
-    /*animation: header 5s ease-in-out; */
+    animation: header 5s ease-in-out;
     box-shadow: 0px 0px 10px aliceblue;
 }
 
@@ -206,7 +206,7 @@ nav{
 #logo{
     filter: invert(100);
     position: relative;
-    /*animation: rocket 5s ease-in-out;*/
+    animation: rocket 5s ease-in-out;
     left: 50%;
     top: 4em;
     transform: translate(-43em, -5em);
@@ -872,7 +872,7 @@ footer{
         font-size: 3em;
     }
     .aboutUs{
-        width: 22em;
+        width: 21em;
     }
     .aboutLeft{
         margin: 0;
@@ -880,10 +880,59 @@ footer{
     .aboutRight{
         margin: 0;
         width: 10em;
+        display: grid;
+        justify-content: center;
     }
     #txtMid{
         font-size:small;
         width: 17em;
         margin: 0;
+    }
+    .finalSquare{
+        width: 18em;
+        display: grid;
+        justify-content: center;
+    }
+    .greenSquare{
+        width: 17em;
+        margin-left: 1em;
+    }
+    .purpleSquare{
+        width: 19em;
+        height: 26em;
+    }
+    #instaLogo{
+        margin-left: -1em;
+    }
+    #faceLogo{
+        margin-left: -1.7em;
+        margin-bottom: 0;
+    }
+    #btnInsta{
+        margin-top: 1em;
+        margin-left: -1.72em;
+        margin-bottom: 2em;
+    }
+    #btnFace{
+        margin-left: -1.72em;
+        margin-top: 1em;
+    }
+    .finalContentBottom{
+        display: grid;
+    }
+    .finalLeft{
+        width: 17.5em;
+        height: 50em;
+    }
+    .finalRight{
+        width: 19em;
+    }
+    .final{
+        height: 90em;
+        align-content: baseline;
+    }
+    iframe{
+        width: 17em;
+        height: 17em;
     }
 }

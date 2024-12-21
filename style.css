@@ -10,7 +10,7 @@ header{
     height: 5em;
     display: flex;
     text-align: center; 
-    position: sticky;
+    position: fixed;
     top: 0px;
     animation: header 5s ease-in-out;
     box-shadow: 0px 0px 10px aliceblue;
@@ -851,11 +851,22 @@ footer{
 }
 
 @media screen and (max-width: 750px) {
+    body{
+        overflow-x:hidden;
+    }
     a{
         font-size:x-small
     }
     .top{
         height: 50em;
+    }
+    #titTop{
+        align-content: center;
+        display: grid;
+        height: 4em;
+    }
+    .topConteudo{
+        width: 20em;
     }
     #balao3{
         margin-top: 10em;
@@ -872,14 +883,15 @@ footer{
         font-size: 3em;
     }
     .aboutUs{
-        width: 21em;
+        height: 55em;
+        width: 22em;
     }
     .aboutLeft{
         margin: 0;
     }
     .aboutRight{
         margin: 0;
-        width: 10em;
+        width: 12em;
         display: grid;
         justify-content: center;
     }
@@ -887,6 +899,10 @@ footer{
         font-size:small;
         width: 17em;
         margin: 0;
+    }
+    #tit3{
+        font-size: 3em;
+        height: 3em;
     }
     .finalSquare{
         width: 18em;
@@ -926,6 +942,7 @@ footer{
     }
     .finalRight{
         width: 19em;
+        margin-left: 0;
     }
     .final{
         height: 90em;

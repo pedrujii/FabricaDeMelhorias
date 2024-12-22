@@ -20,7 +20,6 @@ header{
     0%,18%{
         content: "Cursos On-line e Presenciais!";
     }
-
     21%,40%{
         content: "Imaginação Não Tem Limites";
     }
@@ -552,7 +551,6 @@ footer{
 }
 
 @media screen and (max-width:1310px) {
-
     #balao2, #balao4{
         margin-left: 17em;
     }
@@ -582,7 +580,6 @@ footer{
     .final{
         height: 105em;
         justify-content: center;
-
     }
     .finalContent{
         align-content: center;
@@ -624,7 +621,6 @@ footer{
     #balao4{
         margin-top: 2.9em;
     }
-    
     .aboutUs{
         width: 50em;
         height: 35em;
@@ -644,6 +640,14 @@ footer{
     }
     .fila1, .fila2{
         display: grid;
+    }
+    .finalRight{
+        margin-top: 2em;
+        margin-bottom: 2em;
+        width: 38em;
+    }
+    .final{
+        height: max-content;
     }
 }
 
@@ -679,7 +683,6 @@ footer{
         width: 22em;
         justify-content: center;
         margin-top:0;
-
     }
     .linha1{
         height: 4em;
@@ -737,7 +740,6 @@ footer{
     #filas{
         display: grid;
     }
-
     #titTop{
         justify-content: center;
         text-align: center;

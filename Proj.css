@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@keyframes tituloTop{
+    0%,18%{
+        content: "Criatividade Pura!";
+    }
+    21%,40%{
+        content: "Crie Projetos Surpreendentes!";
+    }
+    41%,60%{
+        content: "Crie O Que Quiser!";
+    }
+    61%,80%{
+        content: "Não Perca Essa Oportunidade!";
+    }
+    81%, 100%{
+        content: "Fábrica De Melhorias";
+    }
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 50em;
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(#3092f4, #046edb, #044a90);
+}
+
+.content{
+    width: 100%;
+}
+
+.first{
+    justify-items: center;
+    display: grid;
+}
+
+.titAnim{
+    height: 7em;
+    align-content: center;
+}
+
+.tablet{
+    background-image: linear-gradient(#660099, #3d007e);
+    border: 3px solid #40005f;
+    box-shadow: 3px 3px 1px #250038;
+    padding: 2em;
+    border-radius: 3em;
+    justify-items: center;
+    display: grid;
+}
+
+#tit1{
+    font-family: monospace;
+    font-size: 3em;
+    color: aliceblue;
+    text-shadow: 1px 1px 5px black;
+}
+
+#tit1::after{
+    content: "";
+    animation: tituloTop 20s infinite;
+}
+
+.slider{
+    margin: 0 auto;
+    width: 500px;
+    overflow: hidden;
+    border-radius: 2em;
+    border: 1px solid rgb(28, 0, 40);
+    box-shadow: 0px 0px 40px rgba(185, 222, 255, 0.512);
+}
+
+img{
+    height: 400px;
+    max-width: 500px;
+    position: relative;
+    margin-right: 16em;
+}
+
+.slides{
+    width: 400%;
+    height: 400px;
+    display: flex;
+}
+
+.slides input {
+    display: none;
+}
+
+.slide{
+    width: 25%;
+    position: relative;
+    transition: 1s;
+}
+
+.slide img{
+    width: 800px;
+}
+
+.manual-navigation{
+    position: absolute;
+    width: 800px;
+    margin-top: -40px;
+    margin-left: -9.5em;
+    display: flex;
+    justify-content: center;
+}
+
+.manual-btn{
+    border: 2px solid rgb(0, 0, 0);
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.manual-btn:not(:last-child){
+    margin-right: 40px;
+}
+
+.manual-btn:hover{
+    background-color: rgb(120, 203, 255);
+}
+
+#radio1:checked ~.first{
+    margin-left:0%;
+}
+
+#radio2:checked ~.first{
+    margin-left: -25%;
+}
+
+#radio3:checked ~ .first{
+    margin-left: -50%;
+}
+
+#radio4:checked ~ .first{
+    margin-left: -75%;
+}
+
+#radio5:checked ~ .first{
+    margin-left: -100%;
+}
+
+#radio6:checked ~ .first{
+    margin-left: -125%;
+}
+
+.navigation-auto div{
+    border: 2px solid rgb(0, 0, 0);
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.navigation-auto{
+    position: absolute;
+    width: 800px;
+    margin-top: 360px;
+    margin-left: -9.5em;
+    display: flex;
+    justify-content: center;
+}
+
+.navigation-auto div:not(:last-child){
+    margin-right: 40px;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1{
+    background-color: rgb(153, 0, 255);
+}
+
+#radio2:checked ~ .navigation-auto .auto-btn2{
+    background-color: rgb(153, 0, 255);
+}
+
+#radio3:checked ~ .navigation-auto .auto-btn3{
+    background-color: rgb(153, 0, 255);
+}
+
+#radio4:checked ~ .navigation-auto .auto-btn4{
+    background-color: rgb(153, 0, 255);
+}
+
+#radio5:checked ~ .navigation-auto .auto-btn5{
+    background-color: rgb(153, 0, 255);
+}
+
+#radio6:checked ~ .navigation-auto .auto-btn6{
+    background-color: rgb(153, 0, 255);
+}
+
+@media screen and (max-width: 850px) {
+    html{
+        overflow-x: hidden;
+    }
+    #tit1{
+        font-size: 2em;
+        background-color: rgba(149, 0, 255, 0.564);
+        padding: 1em;
+        border-radius: 1em;
+    }
+    .titAnim{
+        display: flex;
+        align-items: center;
+
+    }
+    .tablet{
+        padding: 1em;
+    }
+    #cam{
+        margin-top: 1em;
+    }
+    .slider{
+        height: 300px;
+        width: 350px;
+    }
+    img{
+        max-height: 300px;
+        max-width: 350px;
+    }
+    .navigation-auto{
+        margin-top: 270px;
+        margin-left: -14em;
+    }
+    .manual-navigation{
+        margin-top: -8.1em;
+        margin-left: -14em;
+    }
+    .tabletButtons{
+        margin-top: -1em;
+        margin-bottom: 10px;
+    }
+}

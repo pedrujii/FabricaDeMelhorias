@@ -363,7 +363,7 @@ img{
 /* PARTE DO FINAL   // FINAL */
 
 .final{
-    background-image: linear-gradient(rgb(49, 0, 80), rgb(0, 13, 76));
+    background-image:url(finalFund.png);
     height: 60em;
 }
 

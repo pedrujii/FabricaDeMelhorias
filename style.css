@@ -652,9 +652,6 @@ footer{
 }
 
 @media screen and (max-width: 900px) {
-    html{
-        overflow-x: hidden;
-    }
     nav{
         width: 23em;
         display: flex;
@@ -853,5 +850,112 @@ footer{
     iframe{
         width: 20em;
         height: 20em;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    nav{
+        width: 15em;
+    }
+    body{
+        overflow-x:hidden;
+    }
+    a{
+        font-size:x-small
+    }
+    .top{
+        height: 50em;
+    }
+    #titTop{
+        align-content: center;
+        display: grid;
+        height: 4em;
+    }
+    .topConteudo{
+        width: 20em;
+    }
+    #balao3{
+        margin-top: 10em;
+    }
+    #balao4{
+        margin-top: 17em;
+        margin-left: 0 ;
+    }
+    #balao2{
+        margin-left: 0;
+        margin-top: 6em;
+    }
+    #tit2{
+        font-size: 3em;
+    }
+    .aboutUs{
+        height: 55em;
+        width: 22em;
+    }
+    .aboutLeft{
+        margin: 0;
+    }
+    .aboutRight{
+        margin: 0;
+        width: 12em;
+        display: grid;
+        justify-content: center;
+    }
+    #txtMid{
+        font-size:small;
+        width: 17em;
+        margin: 0;
+    }
+    #tit3{
+        font-size: 3em;
+        height: 3em;
+    }
+    .finalSquare{
+        width: 18em;
+        display: grid;
+        justify-content: center;
+    }
+    .greenSquare{
+        width: 17em;
+        margin-left: 1em;
+    }
+    .purpleSquare{
+        width: 19em;
+        height: 26em;
+    }
+    #instaLogo{
+        margin-left: -1em;
+    }
+    #faceLogo{
+        margin-left: -1.7em;
+        margin-bottom: 0;
+    }
+    #btnInsta{
+        margin-top: 1em;
+        margin-left: -1.72em;
+        margin-bottom: 2em;
+    }
+    #btnFace{
+        margin-left: -1.72em;
+        margin-top: 1em;
+    }
+    .finalContentBottom{
+        display: grid;
+    }
+    .finalLeft{
+        width: 17.5em;
+        height: 50em;
+    }
+    .finalRight{
+        width: 19em;
+        margin-left: 0;
+    }
+    .final{
+        height: 90em;
+        align-content: baseline;
+    }
+    iframe{
+        width: 17em;
+        height: 17em;
     }
 }

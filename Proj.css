@@ -21,16 +21,13 @@
     }
 }
 
-html{
-    overflow-x: hidden;
-}
-
 body{
     margin: 0;
     padding: 0;
     width: 100%;
     height: 100em;
     justify-content: center;
+    overflow-x: hidden;
 }
 
 .content{
@@ -431,14 +428,14 @@ footer{
         max-width: 350px;
     }
     .navigation-auto{
-        width: 11em;
         margin-top: 14.9em;
-        margin-left: 4em;
+        position: absolute;
+        margin-left: -15.52em;
     }
     .manual-navigation{
-        width: 11em;
         margin-top: -10.1em;
-        margin-left: 4em;
+        position: absolute;
+        margin-left: -15.5em;
     }
     .tabletButtons{
         margin-top: -1em;

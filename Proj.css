@@ -1,7 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-
 }
 
 @keyframes tituloTop{
@@ -292,12 +291,13 @@ li{
     justify-content: center;
     background-image: linear-gradient(#5000ac,#1a008d, #004966);
 }
+
 .relatosContent{
     display: flex;
     justify-items:center;
     width: 70em;
+    margin-top: 3em;
 }
-
 
 .wttBallon{
     text-align: center;
@@ -324,6 +324,20 @@ li{
 #baloon4{
     width: 15em;
 }
+#baloon5{
+    width: 18em;
+}
+#baloon6{
+    width: 20em;
+    height: 4em;
+}
+#baloon7{
+    width: 12em;
+}
+#baloon8{
+    width: 18em;
+    height: 4em;
+}
 
 .l1, .l2{
     display: flex;
@@ -333,9 +347,35 @@ li{
     display: grid;
 }
 
-@media screen and (max-width: 850px) {
-    html{
-        overflow-x: hidden;
+footer{
+    text-align: center;
+    align-content: center;
+    height: 2em;
+    background-color: black;
+    color: aliceblue;
+    font-size: 2em;
+    font-family: monospace;
+}
+
+@media screen and (max-width: 1200px) {
+    .nina{
+        width: 18em;
+    }
+    #nina{
+        margin-left: -15em;
+    }
+    .leftRelatos{
+        width: 25em;
+    }
+    .relatosContent{
+        margin-left: 9em;
+    }
+}
+
+@media screen and (max-width: 920px) {
+    .nina{
+        visibility: hidden;
+        width: 0;
     }
     #tit1{
         font-size: 2em;
@@ -349,6 +389,7 @@ li{
     }
     .tablet{
         padding: 1em;
+        margin-bottom: 2em;
     }
     #cam{
         margin-top: 1em;
@@ -372,5 +413,36 @@ li{
     .tabletButtons{
         margin-top: -1em;
         margin-bottom: 10px;
+    }
+    #titulo2{
+        font-size: 3em;
+    }
+
+    /* Middle */
+
+    .square{
+        width: 20em;
+        height: 28em;
+    }
+    .textos{
+        height: 32em;
+    }
+    .left{
+        width: 0;
+    }
+    .right{
+        height: 28em;
+    }
+    .left img{
+        visibility: hidden;
+    }
+
+    /* Relatos */
+
+    .wttBallon{
+        visibility: hidden;
+    }
+    .leftRelatos{
+        width: 13.5em;
     }
 }

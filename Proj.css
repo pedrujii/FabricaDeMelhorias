@@ -339,12 +339,32 @@ li{
     height: 4em;
 }
 
-.l1, .l2{
-    display: flex;
+.leftRelatos{
+    width: 40em;
+    margin-left: 2em;
 }
 
 .rightRelatos{
     display: grid;
+    justify-content: center;
+}
+
+#aval1{
+    left: 7em;
+    border-radius: 1em; 
+    height: 18em; 
+}
+#aval2{
+    height: 16em;
+    left: 9em;
+    border-radius: 1em; 
+    margin-top: -4em;
+}
+#aval3{
+    height: 14em;
+    border-radius: 1em;
+    left: 4em;
+    margin-top: -4em;
 }
 
 footer{
@@ -373,9 +393,8 @@ footer{
 }
 
 @media screen and (max-width: 920px) {
-    .nina{
-        visibility: hidden;
-        width: 0;
+    html{
+        overflow-x: hidden;
     }
     #tit1{
         font-size: 2em;
@@ -386,6 +405,19 @@ footer{
         display: flex;
         align-items: center;
         justify-content:center;
+        text-align: center;
+    }
+    .slider{
+        max-width: 19em;
+        max-height: 17em;
+    }
+    .slider img{
+        max-width: 19em;
+        max-height: 17em;
+    }
+    .nina{
+        visibility: hidden;
+        width: 0;
     }
     .tablet{
         padding: 1em;
@@ -394,44 +426,43 @@ footer{
     #cam{
         margin-top: 1em;
     }
-    .slider{
-        height: 300px;
-        width: 350px;
-    }
     img{
         max-height: 300px;
         max-width: 350px;
     }
     .navigation-auto{
-        margin-top: 270px;
-        margin-left: -14em;
+        width: 11em;
+        margin-top: 14.9em;
+        margin-left: 4em;
     }
     .manual-navigation{
-        margin-top: -8.1em;
-        margin-left: -14em;
+        width: 11em;
+        margin-top: -10.1em;
+        margin-left: 4em;
     }
     .tabletButtons{
         margin-top: -1em;
         margin-bottom: 10px;
     }
     #titulo2{
-        font-size: 3em;
+        font-size: 2em;
+        height: 3em;
     }
 
     /* Middle */
 
     .square{
-        width: 20em;
-        height: 28em;
+        width: 18em;
+        height: 30em;
     }
     .textos{
-        height: 32em;
+        height: 35em;
     }
     .left{
         width: 0;
     }
     .right{
-        height: 28em;
+        height: 32em;
     }
     .left img{
         visibility: hidden;
@@ -439,10 +470,33 @@ footer{
 
     /* Relatos */
 
+    .relatos{
+        height: 50em;
+    }
+
     .wttBallon{
         visibility: hidden;
     }
     .leftRelatos{
         width: 13.5em;
+        margin-left: 0;
+        justify-content: center;
     }
+    #aval1{
+        left: 7em;
+        border-radius: 1em; 
+        height: 15em; 
+    }
+    #aval2{
+        height: 13em;
+        left: 7em;
+        border-radius: 1em; 
+        margin-top: -4em;
+    }
+    #aval3{
+        height: 11em;
+        border-radius: 1em;
+        left: 7em;
+        margin-top: -4em;
+    }    
 }

@@ -397,10 +397,11 @@ footer{
         font-size: 2em;
         padding: 1em;
         border-radius: 1em;
+        height: 4em;
     }
     .titAnim{
         display: flex;
-        align-items: center;
+        align-content: center;
         justify-content:center;
         text-align: center;
     }
@@ -428,12 +429,12 @@ footer{
         max-width: 350px;
     }
     .navigation-auto{
-        margin-top: 14.9em;
+        transform: translateY(-7.6em);
         position: absolute;
         margin-left: -15.52em;
     }
     .manual-navigation{
-        margin-top: -10.1em;
+        transform: translateY(-7.6em);
         position: absolute;
         margin-left: -15.5em;
     }
@@ -477,7 +478,11 @@ footer{
     .leftRelatos{
         width: 13.5em;
         margin-left: 0;
+    }
+    .rightRelatos{
         justify-content: center;
+        background-color: rgba(0, 0, 0, 0.281);
+        padding-top: 2em;
     }
     #aval1{
         left: 7em;

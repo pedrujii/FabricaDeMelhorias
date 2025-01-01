@@ -10,7 +10,7 @@ html{
 body{
     overflow-x:hidden;
     text-align: center;
-    background-image: linear-gradient(#8300C6, #3C005B, #23004c);
+    background-image: url(fb.png);
     height: 100%;
 }
 

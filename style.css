@@ -97,7 +97,7 @@ header{
 }
 
 nav{
-    width: 50em;
+    width: 40em;
     height: 1.5em;
     left: 50%;
     position: absolute;
@@ -286,6 +286,10 @@ img{
     align-content: center;
 }
 
+#txtMid b{
+    color: #ff52ff;
+}
+
 .midContent{
     justify-content: center;
     align-content: center;
@@ -364,43 +368,43 @@ img{
 
 .final{
     background-image:url(finalFund.png);
-    height: 60em;
+    height: 52em;
 }
 
 #tit3{
     font-family:monospace;
-    font-size: 4em;
+    align-content: center;
     background-image: linear-gradient(#047adb,#69c2c8);
     color: aliceblue;
     text-shadow: 2px 2px 2px black;
     height: 2em;
-    align-content: center;
+    font-size: 4em;
 }
 
 .finalContent{
     color: aliceblue;
-    margin-top: 5em;
-    display: flex;
-    width: 100%;
-    height: 35em;
     justify-content: center;
     align-content: center;
+    display: flex;
+    margin-top: 5em;
+    width: 100%;
+    height: 35em;
     margin: 0;
 }
 .finalSquare{
     display: flex;
-    margin-top: 5em;
     justify-content: center;
     align-content: center;
+    margin-top: 5em;
 }
 
 .finalLeft{
     width: 40em;
     height: 40em;
-    background-color: rgba(0, 0, 0, 0.244);
     padding: 1em;
     border-radius: 2em;
     margin-right: 2em;
+    background-color: rgba(0, 0, 0, 0.244);
     align-content: center;
     display: grid;
 }
@@ -414,8 +418,8 @@ img{
 }
 
 .finalRight{
-    width: 50%;
     align-content: center;
+    width: 50%;
     margin-left: 2em;
     background-color: rgba(0, 0, 0, 0.261);
     border-radius: 2em;
@@ -423,8 +427,8 @@ img{
 
 .greenSquare{
     background-image: radial-gradient( transparent,rgba(0, 255, 0, 0.276));
-    box-shadow: 0px 0px 10px lime;
     border: 2px solid aliceblue;
+    box-shadow: 0px 0px 10px lime;
     border-radius: 2em;
     height: 20em;
     margin-bottom: 2em;
@@ -432,8 +436,8 @@ img{
 
 .purpleSquare{
     background-image: radial-gradient(transparent, rgba(242, 0, 255, 0.266));
-    box-shadow: 0px 0px 10px magenta;
     border: 2px solid aliceblue;
+    box-shadow: 0px 0px 10px magenta;
     border-radius: 2em;
     height: 15em;
 }
@@ -457,11 +461,11 @@ img{
     box-shadow: 0px 0px 10px aliceblue;
     border: 3px solid aliceblue;
     color: aliceblue;
+    font-family:Georgia, 'Times New Roman', Times, serif;
     height: 5em;
     width: 9em;
     border-radius: 1em;
     margin-top: 3em;
-    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
 #viaWhatsapp:hover{
@@ -471,9 +475,9 @@ img{
 
 #titFale{
     font-family: monospace;
-    font-size: 2.5em;
     color: aliceblue;
     text-shadow: 0px 0px 10px lime;
+    font-size: 2.5em;
 }
 
 #titVerRedes{
@@ -514,11 +518,11 @@ img{
 
 #btnFace{
     background-image: linear-gradient(rgb(64, 64, 159),rgb(32, 32, 77));
+    color: aliceblue;
     border: 3px solid aliceblue;
     box-shadow: 0px 0px 10px rgb(111, 111, 255);
     text-shadow: 1px 1px 1px black;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: aliceblue;
     border-radius: 1em;
     height: 3em;
     width: 7em;
@@ -542,12 +546,12 @@ img{
 footer{
     background-color: black;
     color: aliceblue;
-    height: 2em;
     font-family: monospace;
-    width: 100%;
-    font-size: 2em;
     text-align: center;
     align-content: center;
+    height: 2em;
+    width: 100%;
+    font-size: 2em;
 }
 
 @media screen and (max-width:1310px) {
@@ -681,8 +685,8 @@ footer{
     }
     .right{
         display: grid;
-        width: 22em;
         justify-content: center;
+        width: 22em;
         margin-top:0;
     }
     .linha1{
@@ -760,17 +764,17 @@ footer{
     .aboutUs{
         width: 35em;
         height: 60em;
+        font-size: 0.7em;
         justify-content: center;
         align-content: center;
         display: grid;
-        font-size: 0.7em;
     }
     .aboutLeft{
         width: 0;
     }
     .aboutRight{
-        width: 18em;
         text-align: center;
+        width: 18em;
         margin: 0;
     }
     #imgTurma{
@@ -796,9 +800,9 @@ footer{
         width: 100%;
     }
     .finalLeft{
-        width: 22em;
         justify-content: center;
         align-content: center;
+        width: 22em;
         margin: 0;
     }
     .greenSquare{
@@ -840,9 +844,9 @@ footer{
         margin-right: 1em;
     }
     .finalRight{
-        width: 22em;
         display: grid;
         justify-content: center;
+        width: 22em;
         height: 22em;
         margin-top: 3em;
         margin-left: 4%;
@@ -887,6 +891,7 @@ footer{
     }
     #tit2{
         font-size: 3em;
+        height: 3em;
     }
     .aboutUs{
         height: 55em;

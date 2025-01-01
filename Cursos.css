@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+@keyframes tituloTop{
+    0%,18%{
+        content: "Criatividade Pura!";
+    }
+    21%,40%{
+        content: "Crie Projetos Surpreendentes!";
+    }
+    41%,60%{
+        content: "Crie O Que Quiser!";
+    }
+    61%,80%{
+        content: "Não Perca Essa Oportunidade!";
+    }
+    81%, 100%{
+        content: "Fábrica De Melhorias";
+    }
+}
+
+
+#tit1{
+    font-family: monospace;
+    font-size: 3em;
+    color: aliceblue;
+    text-shadow: 1px 1px 5px black;
+}
+
+#tit1::after{
+    content: "";
+    animation: tituloTop 20s infinite;
+}
+
+.titAnim{
+    height: 5em;
+    display: grid;
+    color: black;
+    justify-items: center;
+    width: 100%;
+    align-content: center;
+    background-image: linear-gradient(rgb(55, 0, 89), #b874d8);
+}
+
+.content{
+    width: 100%;
+}
+
+.top{
+    height: 32em;
+    width: 100%;
+    background-image: linear-gradient(#b874d8, #a204db, #7901b0);
+    display: flex;
+    justify-content: center;
+}
+
+.top img{
+    height: 25em;
+    margin: 3em;
+    border-radius: 10em;
+    box-shadow: 0px 0px 20px black
+}
+
+.layout1{
+    width: 50em;
+    height: 25em;
+    background-image: url(place.jpg);
+    background-repeat: no-repeat;
+    position: relative;
+    margin: 3em;
+    display: flex;
+    box-shadow: 0px 0px 20px rgb(0, 0, 0); 
+}
+
+.contentLayout{
+    display: grid;
+    float: left;
+    align-content: center;
+    padding-left: 1em;
+    background-color: rgba(0, 0, 0, 0.485);
+    width: 15em;
+    height: 100%;
+    color: aliceblue;
+    text-shadow: 2px 2px 2px black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contentLayout h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+    /* Middle */
+
+.middle{
+    background-image: linear-gradient(#7901b0, #580163 );
+    height: 30em;
+}
+
+.middle h1{
+    font-family:monospace;
+    font-size: 4em;
+    background-image: linear-gradient(#0490db,#6998c8);
+    color: aliceblue;
+    text-shadow: 2px 2px 2px black;
+    height: 2em;
+    width: 100%s;
+    align-content: center;
+    text-align: center;
+
+}

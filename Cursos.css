@@ -51,7 +51,7 @@
 .top{
     height: 32em;
     width: 100%;
-    background-image: linear-gradient(#b874d8, #a204db, #7901b0);
+    background-image: linear-gradient(#004385, #046edb, #90fff8);
     display: flex;
     justify-content: center;
 }
@@ -94,8 +94,8 @@
     /* Middle */
 
 .middle{
-    background-image: linear-gradient(#7901b0, #580163 );
-    height: 30em;
+    background-image: linear-gradient(#90fff8,#8c4aff,#5000ac);
+    height: 50em;
 }
 
 .middle h1{
@@ -108,5 +108,45 @@
     width: 100%s;
     align-content: center;
     text-align: center;
+}
 
+.middleContent{
+    display: flex;
+}
+
+.esq{
+    margin-top: 2em;
+    width: 60%;
+}
+
+.esq img{
+    height: 30em;
+}
+
+.esq::after{
+    content: "Nossos cursos de robótica foram desenvolvidos para inspirar, ensinar e capacitar pessoas de todas as idades. Descubra o mundo da tecnologia com atividades práticas e inovadoras!";
+    position: absolute;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    width: 20em;
+    background-image: linear-gradient(rgb(0, 81, 255), rgb(89, 116, 255));
+    border-radius: 2em;
+    border-bottom-left-radius: 0;
+    padding: 1em;
+    align-content: center;
+    text-align: center;
+    border: 3px solid rgb(32, 45, 57);
+    transform: translateX(-10em);
+    font-size: large;
+}
+
+.dir{
+    background-color: red;
+    justify-content:flex-end;
+    display: grid;
+}
+
+.dir details{
+    margin-left: 1em;
 }

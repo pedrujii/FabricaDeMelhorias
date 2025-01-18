@@ -12,7 +12,7 @@ header{
     text-align: center; 
     position: sticky;
     top: 0px;
-    animation: header 5s ease-in-out;
+    /*animation: header 5s ease-in-out; */
     box-shadow: 0px 0px 10px aliceblue;
 }
 
@@ -205,7 +205,7 @@ nav{
 #logo{
     filter: invert(100);
     position: relative;
-    animation: rocket 5s ease-in-out;
+    /*animation: rocket 5s ease-in-out; */
     left: 50%;
     top: 4em;
     transform: translate(-43em, -5em);
@@ -402,6 +402,10 @@ img{
 .oldyall{
     color:aliceblue;
     font-family: monospace;
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    justify-items: center;
     background-image: linear-gradient(rgba(0, 0, 0, 0.348), transparent);
     padding-bottom: 1em;
     padding-top: 1em;
@@ -414,9 +418,9 @@ img{
 }
 
 .oldyall h1{
-    margin-left: 5.5em;
     width: 30em;
     font-size: 2.5em;
+    margin: 1em;
 }
 
 .oldyall h2{
@@ -427,35 +431,37 @@ img{
 }
 
 #hr1{
-    margin-left: 10.2%;
-    width: 80%;
-}
-#hr2{
-    margin-left: 17.1%;
+    width: 90%;
 }
 
 .oldyall hr{
     width: 65%;
-    margin-top: 1.5em;
-    margin-left: 15%;
-    margin-bottom: 1em;
 }
 
 .agesylectures img{
     box-shadow: 0px 0px 20px black;
 }
 
+.agesylectures h1{
+    font-size: 4em;
+}
+
 .agesylectures{
     background-image: linear-gradient(rgba(0, 0, 0, 0.254), transparent);
     padding-top: 1em;
-    text-shadow: 0px 0px 10px rgb(111, 181, 255);
-
+    text-shadow: 0px 0px 10px rgb(0, 0, 0);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: aliceblue;
+    width: 100%;
 }
 
-.agesylectures img:hover{
-    height: 32em;
-    transition: 0.3s ease-in-out;
-    margin: 0;
+.oldsimg img{
+    height: 40em;
+    margin-top: 2em;
+}
+
+.lecturesimg{
+    margin: 2em;
 }
 
 #btit3{
@@ -720,6 +726,10 @@ footer{
         width: 50%;
         font-size: large;
     }
+        /* More */
+    .places img{
+        height: 20em;
+    }
     .finalSquare{
         display: grid;
     }
@@ -779,6 +789,25 @@ footer{
     }
     .aboutLeft{
         width: 25%;
+    }
+        /* More */
+    #subt{
+        width: 17em;
+    }
+    .places{
+        width: 45em;
+        display: flex;
+        flex-wrap:wrap;
+        justify-content: center;
+    }
+    .oldsimg img{
+        height: 25em;
+    }
+    .lecturesimg img{
+        height: 20em;
+    }
+    .oldyall h1{
+        font-size: 2em;
     }
     .imgs{
         height: 140em;
@@ -854,6 +883,34 @@ footer{
         height: 24.4em;
         margin-left: 3em;
         visibility: hidden;
+    }
+        /* More */
+    #tit2Mid{
+        height: 3em;
+    }
+    #subt{
+        width: 15em;
+    }
+    .places{
+        display: grid;
+        width: 30em;
+        border-radius: 1em;
+    }
+    .oldyall h1{
+        font-size: 1.5em;
+        width: 22em;
+    }
+    .agesylectures h1{
+        font-size: 2.3em;
+    }
+    .oldsimg{
+        display: grid;
+        justify-content: center;
+    }
+    .lecturesimg{
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap-reverse;
     }
     #imgs{
         display: grid;
@@ -1053,6 +1110,35 @@ footer{
         width: 17em;
         margin: 0;
     }
+        /* More */
+    #tit2Mid{
+        height: 3em;
+        font-size: 2.5em;
+    }
+    #tit3Mid{
+        height: 3em;
+        font-size: 2.5em;
+    }
+    #subt{
+        width: 12em;
+    }
+    .places{
+        width: 25em;
+    }
+    .oldyall h1{
+        width: 14em;
+    }
+    .agesylectures h1{
+        font-size: 2em;
+    }
+    .oldsimg img{
+        height: 18em;
+    }
+    .lecturesimg img{
+        height: 13em;
+    }
+
+
     #tit3{
         font-size: 3em;
         height: 3em;

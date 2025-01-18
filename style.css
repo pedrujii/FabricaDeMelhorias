@@ -1111,6 +1111,9 @@ footer{
         margin: 0;
     }
         /* More */
+    .more{
+        justify-content: center;
+    }
     #tit2Mid{
         height: 4em;
         font-size: 2.5em;
@@ -1124,7 +1127,7 @@ footer{
         font-size: 1.5em;
     }
     .places{
-        width: 20em;
+        width: 19em;
     }
     .oldyall h1{
         width: 14em;

@@ -1094,7 +1094,7 @@ footer{
     }
     .aboutUs{
         height: 55em;
-        width: 22em;
+        width: 24em;
     }
     .aboutLeft{
         margin: 0;
@@ -1112,7 +1112,7 @@ footer{
     }
         /* More */
     #tit2Mid{
-        height: 3em;
+        height: 4em;
         font-size: 2.5em;
     }
     #tit3Mid{
@@ -1121,9 +1121,10 @@ footer{
     }
     #subt{
         width: 12em;
+        font-size: 1.5em;
     }
     .places{
-        width: 25em;
+        width: 20em;
     }
     .oldyall h1{
         width: 14em;

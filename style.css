@@ -348,13 +348,13 @@ img{
     color: aliceblue;
     text-shadow: 2px 1px 1px black;
     font-family: monospace;
-    margin-top: 1em;
 }
 
 .more{
-   background-image: linear-gradient(rgb(47, 0, 76),rgb(59, 46, 160),rgb(48, 0, 79));
+   background-image: linear-gradient(rgb(47, 0, 76),rgb(59, 46, 160));
    display: grid;
    justify-items: center;
+   padding-bottom: 1em;
 }
 
 #subt{
@@ -410,7 +410,6 @@ img{
     padding-bottom: 1em;
     padding-top: 1em;
     width: 100%;
-    margin: 0;
 }
 
 .oldyall strong{
@@ -453,6 +452,11 @@ img{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: aliceblue;
     width: 100%;
+}
+
+.afterMiddle{
+    padding-bottom: 1em;
+    background-image: linear-gradient(rgb(59, 46, 160),rgb(48, 0, 79));
 }
 
 .oldsimg img{
@@ -1112,6 +1116,7 @@ footer{
     }
         /* More */
     .more{
+        width: 100%;
         justify-content: center;
     }
     #tit2Mid{
@@ -1140,6 +1145,9 @@ footer{
     }
     .lecturesimg img{
         height: 13em;
+    }
+    #imenor{
+        height: 20em;
     }
 
 

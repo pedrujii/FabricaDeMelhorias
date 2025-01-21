@@ -29,7 +29,6 @@ body{
     margin: 0;
     padding: 0;
     width: 100%;
-    height: 100em;
     justify-content: center;
     overflow-x: hidden;
 }
@@ -416,6 +415,7 @@ footer{
         text-align: center;
     }
     .slider{
+        overflow-x: hidden;
         max-width: 19em;
         max-height: 17em;
     }

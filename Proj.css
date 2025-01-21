@@ -401,11 +401,13 @@ footer{
         overflow-x: hidden;
         display: grid;
     }
-    #tit1{
-        font-size: 2em;
-        padding: 1em;
-        border-radius: 1em;
+    .titAnim{
         height: 4em;
+    }
+    #tit1{
+        font-size: 1.5em;
+        padding: 1em;
+        width: 18em;
     }
     .titAnim{
         display: flex;

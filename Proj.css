@@ -393,6 +393,9 @@ footer{
     html{
         overflow-x: hidden;
     }
+    body{
+        overflow-x: hidden;
+    }
     #tit1{
         font-size: 2em;
         padding: 1em;

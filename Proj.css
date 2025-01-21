@@ -21,6 +21,10 @@
     }
 }
 
+html{
+    overflow-x: hidden;
+}
+
 body{
     margin: 0;
     padding: 0;
@@ -395,6 +399,7 @@ footer{
     }
     body{
         overflow-x: hidden;
+        display: grid;
     }
     #tit1{
         font-size: 2em;

@@ -30,11 +30,12 @@ body{
     padding: 0;
     width: 100%;
     justify-content: center;
-    overflow-x: '';
+    overflow-x: hidden;
 }
 
 .content{
-    width: 100%;
+    max-width: 100%;
+    word-wrap: break-word;
 }
 
 .first{
@@ -100,7 +101,7 @@ body{
 
 img{
     height: 400px;
-    max-width: 500px;
+    max-width: 100%;
     position: relative;
 }
 
@@ -387,9 +388,6 @@ footer{
 }
 
 @media screen and (max-width: 920px) {
-    body{
-        overflow-x: hidden;
-    }
     .titAnim{
         height: 4em;
     }

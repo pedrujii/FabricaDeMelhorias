@@ -483,6 +483,7 @@ footer{
     }
     .relatosContent{
         display: grid;
+        width: 100%;
     }
 
     .wttBallon{

@@ -1081,15 +1081,20 @@ footer{
     .topConteudo{
         width: 20em;
     }
+    .right p{
+        font-size: 1.3em;
+    }
+    #balao1, #balao2, #balao3, #balao4{
+        width: 20em;
+        margin-left: -1.5em;
+    }
     #balao3{
         margin-top: 10em;
     }
     #balao4{
         margin-top: 17em;
-        margin-left: 0 ;
     }
     #balao2{
-        margin-left: 0;
         margin-top: 6em;
     }
     #tit2{

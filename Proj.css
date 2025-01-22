@@ -481,6 +481,9 @@ footer{
     .relatos{
         height: 50em;
     }
+    .relatosContent{
+        display: grid;
+    }
 
     .wttBallon{
         visibility: hidden;

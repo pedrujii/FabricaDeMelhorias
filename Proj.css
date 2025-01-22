@@ -388,6 +388,14 @@ footer{
 }
 
 @media screen and (max-width: 920px) {
+    html{
+        overflow-x: hidden;
+        max-width: 100%;
+    }
+    body{
+        overflow-x: hidden;
+        max-width: 100%;
+    }
     .titAnim{
         height: 4em;
     }

@@ -101,7 +101,7 @@ body{
 
 img{
     height: 400px;
-    max-width: 100%;
+    max-width: 500px;
     position: relative;
 }
 
@@ -387,7 +387,7 @@ footer{
     }
 }
 
-@media screen and (max-width: 920px) {
+@media screen and (max-width: 750px) {
     html{
         overflow-x: hidden;
         max-width: 100%;
@@ -486,6 +486,8 @@ footer{
     }
 
     .wttBallon{
+        height: 0;
+        width: 0;
         visibility: hidden;
     }
     .leftRelatos{

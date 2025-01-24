@@ -21,10 +21,6 @@
     }
 }
 
-html{
-    overflow-x: hidden;
-}
-
 body{
     margin: 0;
     padding: 0;
@@ -372,7 +368,9 @@ footer{
     background-color: black;
     color: aliceblue;
     font-size: 2em;
+
     font-family: monospace;
+    margin: 0;
 }
 
 @media screen and (max-width: 1200px) {
@@ -389,7 +387,6 @@ footer{
 
 @media screen and (max-width: 750px) {
     html{
-        overflow-x: hidden;
         max-width: 100%;
     }
     body{

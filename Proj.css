@@ -31,7 +31,6 @@ body{
 
 .content{
     max-width: 100%;
-    word-wrap: break-word;
 }
 
 .first{
@@ -99,6 +98,7 @@ img{
     height: 400px;
     max-width: 500px;
     position: relative;
+    overflow-x: hidden;
 }
 
 .slides{
@@ -109,6 +109,7 @@ img{
 
 .slides input {
     display: none;
+    overflow-x: hidden;
 }
 
 .slide{
@@ -390,7 +391,6 @@ footer{
         max-width: 100%;
     }
     body{
-        overflow-x: hidden;
         max-width: 100%;
     }
     .titAnim{

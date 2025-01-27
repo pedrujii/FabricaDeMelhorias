@@ -20,17 +20,21 @@
         content: "Fábrica De Melhorias";
     }
 }
+html{
+    display: grid;
+    overflow-x: hidden;
+}
 
 body{
     margin: 0;
     padding: 0;
-    width: 100%;
-    justify-content: center;
     overflow-x: hidden;
+    justify-content: center;
 }
 
 .content{
     max-width: 100%;
+    display: grid;
 }
 
 .first{
@@ -98,7 +102,6 @@ img{
     height: 400px;
     max-width: 500px;
     position: relative;
-    overflow-x: hidden;
 }
 
 .slides{
@@ -109,7 +112,6 @@ img{
 
 .slides input {
     display: none;
-    overflow-x: hidden;
 }
 
 .slide{
@@ -387,9 +389,6 @@ footer{
 }
 
 @media screen and (max-width: 750px) {
-    html{
-        max-width: 100%;
-    }
     body{
         max-width: 100%;
         margin: 0;
@@ -427,6 +426,16 @@ footer{
     #cam{
         margin-top: 1em;
     }
+
+
+
+
+ 
+
+
+
+
+
     img{
         max-height: 300px;
         max-width: 350px;

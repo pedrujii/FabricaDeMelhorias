@@ -15,13 +15,46 @@ body{
 }
 
 header{
-    background-color: #29003d;
-    color: aliceblue;
-    height: 2em;
-    align-content: center;
+    background-image: linear-gradient(#430460, #660099);
+    color: black;
+    width: 100%;
+    height: 5em;
+    display: flex;
+    text-align: center; 
+    top: 0px;
+    box-shadow: 0px 0px 10px aliceblue;
+}
+
+nav{
+    width: 40em;
+    height: 1.5em;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, 0.7em);
     text-align: center;
-    font-size: 2em;
-    font-family: monospace;
+    background-color: #046edb;
+    padding: 1em;
+    border-radius: 2em;
+    opacity: 100;
+}
+
+a{
+    color: aliceblue;
+    margin: 1em;
+    font-size: 1.5em;
+    position: relative; 
+    text-decoration: none;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+#a4{
+    background-color: #0023adac;
+    padding: 6px;
+    border-radius: 0.5em;
+}
+
+#logo{
+    filter: invert(100);
 }
 
 .content{
@@ -161,6 +194,18 @@ h1{
 }
 
 @media screen and (max-width: 750px) {
+    nav{
+        width: 15em;
+        display: flex;
+        justify-content: center;
+    }
+    a{
+        font-size: x-small;
+    }
+    #logo{
+        visibility: hidden;
+    }
+
     .ptprof{
         display: grid;
         justify-content: center;

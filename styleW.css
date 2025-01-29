@@ -223,7 +223,7 @@ a{
 }
 
 #a1{
-    background-color: #0023adac;
+    background-color: #420062ac;
     padding: 6px;
     border-radius: 0.5em;
 }
@@ -336,7 +336,7 @@ img{
     /* More */
 
 #tit2Mid{
-    background-image: linear-gradient(#048cdb,#6997c8);
+    background-image: linear-gradient(#7704db,#a069c8);
     height: 2em;
     font-size: 4em;
     align-content: center;
@@ -354,11 +354,6 @@ img{
     color: aliceblue;
     text-shadow: 2px 1px 1px black;
     font-family: monospace;
-}
-
-.agesylectures h1{
-    background-color: rgba(0, 0, 0, 0.32);
-    padding: 1em;
 }
 
 .more{

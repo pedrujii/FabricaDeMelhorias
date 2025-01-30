@@ -457,7 +457,7 @@ img{
 }
 
 .agesylectures{
-    background-image: url(oficinas\ background.png);
+    background-image: url(indexImgs/oficbackground.png);
     padding-top: 1em;
     padding-bottom: 1em;
     text-shadow: 0px 0px 10px rgb(0, 0, 0);
@@ -497,7 +497,7 @@ img{
 }
 
 .imgs{
-    background-image: url(fundoImgs.png);
+    background-image: url(indexImgs/fundoImgs.png);
     height: 70em;
     padding: 2em;
     display: grid;
@@ -530,7 +530,7 @@ img{
 /* PARTE DO FINAL   // FINAL */
 
 .final{
-    background-image:url(finalFund.png);
+    background-image:url(indexImgs/finalFund.png);
     height: 52em;
 }
 

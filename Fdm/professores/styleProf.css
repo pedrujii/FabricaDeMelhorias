@@ -10,7 +10,7 @@ html{
 body{
     overflow-x:hidden;
     text-align: center;
-    background-image: url(fb.png);
+    background-image: url(./fb.png);
     height: 100%;
 }
 

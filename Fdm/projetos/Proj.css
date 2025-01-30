@@ -73,8 +73,8 @@ html{
 body{
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
     justify-content: center;
+    overflow-x: hidden;
 }
 
 .content{
@@ -149,6 +149,7 @@ img{
 }
 
 .slides{
+    background-color: red;
     width: 400%;
     height: 400px;
     display: flex;
@@ -175,6 +176,7 @@ img{
     margin-left: -9.5em;
     display: flex;
     justify-content: center;
+    overflow-x: hidden;
 }
 
 .manual-btn{
@@ -227,6 +229,7 @@ img{
 
 .navigation-auto{
     position: absolute;
+    overflow-x: hidden;
     width: 800px;
     margin-top: 360px;
     margin-left: -9.5em;

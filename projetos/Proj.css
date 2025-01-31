@@ -171,9 +171,9 @@ img{
 
 .manual-navigation{
     position: absolute;
-    width: 800px;
+    width:300px;
     margin-top: -40px;
-    margin-left: -9.5em;
+    margin-left: 6em;
     display: flex;
     justify-content: center;
     overflow-x: hidden;
@@ -230,9 +230,9 @@ img{
 .navigation-auto{
     position: absolute;
     overflow-x: hidden;
-    width: 800px;
+    width: 300px;
     margin-top: 360px;
-    margin-left: -9.5em;
+    margin-left: 6em;
     display: flex;
     justify-content: center;
 }
@@ -430,8 +430,23 @@ footer{
     #nina{
         margin-left: -15em;
     }
+    .rightRelatos{
+        margin: 0;
+        height: 60em;
+        justify-content: center;
+        display: grid;
+    }
     .leftRelatos{
         width: 25em;
+    }
+    .relatos{
+        height: 110em;
+    }
+    .relatosContent{
+        display: grid;
+    }
+    .tablet{
+        padding: 1.5em;
     }
 }
 

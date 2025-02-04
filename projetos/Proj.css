@@ -67,7 +67,6 @@ a{
 
 html{
     display: grid;
-    overflow-x: hidden;
 }
 
 body{
@@ -498,22 +497,18 @@ footer{
         visibility: hidden;
         width: 0;
     }
+    .right1{
+        display: grid;
+        justify-content: center;
+    }
     .tablet{
         padding: 1em;
         margin-bottom: 2em;
+        margin-left: 0;
     }
     #cam{
         margin-top: 1em;
     }
-
-
-
-
- 
-
-
-
-
 
     img{
         max-height: 300px;
@@ -523,6 +518,8 @@ footer{
     .navigation-auto{
         transform: translateY(-7.6em);
         position: absolute;
+        width: 0;
+        height: 0;
         margin-left: -15.52em;
         visibility: hidden;
     }
@@ -531,7 +528,8 @@ footer{
         position: absolute;
         margin-left: -15.5em;
         visibility: hidden;
-
+        width: 0;
+        height: 0;
     }
     .tabletButtons{
         margin-top: -1em;
@@ -564,12 +562,14 @@ footer{
     /* Relatos */
 
     .relatos{
-        height: 50em;
+        height: 60em;
         display: grid;
     }
     .relatosContent{
-        display: flex;
+        display: grid;
         justify-content: center;
+        align-content: center;
+        height: 50em;
     }
 
     .wttBallon{
@@ -585,6 +585,7 @@ footer{
     .rightRelatos{
         display: grid;
         justify-items: center;
+        align-items: center;
         margin: 0;
         height: 50em;
     }

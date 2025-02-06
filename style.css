@@ -1174,7 +1174,6 @@ footer{
         font-size: 2.5em;
         height: 3.5em;
     }
-
     #tit3{
         font-size: 3em;
         height: 3em;
@@ -1227,4 +1226,9 @@ footer{
         width: 17em;
         height: 17em;
     }
+}
+
+@media screen and (max-width: 430px){
+    /* FORMATAÇÃO PARA CELULARES ANTIGOS */
+
 }

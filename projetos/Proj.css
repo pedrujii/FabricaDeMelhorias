@@ -67,6 +67,7 @@ a{
 
 html{
     display: grid;
+    overflow-x: hidden;
 }
 
 body{
@@ -604,4 +605,8 @@ footer{
         border-radius: 1em;
         margin-top: -4em;
     }    
+}
+
+@media screen and (max-width: 430px){
+    /* FORMATAÇÃO PARA CELULARES ANTIGOS */
 }

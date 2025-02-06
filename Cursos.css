@@ -157,14 +157,13 @@ h2{
 }
 
 .kids, .teens, .online{
-    display: grid;
+    display:contents;
     justify-items: center;
+    justify-content: center;
+    align-content: center;
 }
 
-.kids::before{
-    content: "Kids";
-    position: absolute;
-    margin-top: 2em;
+.cursos h1{
     font-family: monospace;
     color: aliceblue;
     border-radius: 1em;
@@ -173,26 +172,32 @@ h2{
     font-size: 2em;
 }
 
-.teens::before{
-    content: "Teens";
-    position: absolute;
+footer{
+    height: 2em;
+    width: 100%;
+    background-color: black;
     color: aliceblue;
-    margin-top: 2em;
-    border-radius: 1em;
-    background-color: rgb(0, 89, 255);
-    padding: 12px;
-    font-family: monospace;
-    font-size: 2em;
+    font-size: 1.5em;
+    display: grid;
+    justify-content: center;
+    align-content: center;
 }
 
-.online::before{
-    content: "Online";
-    position: absolute;
-    background-color: rgb(0, 89, 255);
-    color: aliceblue;
-    padding: 12px;
-    margin-top: 2em;
-    border-radius: 1em;
-    font-family: monospace;
-    font-size: 2em;
+@media screen and (max-width: 1100px) {
+    nav{
+        width: 23em;
+        display: flex;
+        justify-content: center;
+    }
+    a{
+        font-size: medium;
+        margin: 0.4em;
+    }
+    #a2{
+        margin-top: 0;
+        height: 1em;
+    }
+    #tit1{
+        font-size: 1em;
+    }
 }

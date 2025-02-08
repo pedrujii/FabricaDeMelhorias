@@ -203,7 +203,7 @@ footer{
         height: 15em;
     }
     .cursos img:hover{
-        height: 16em;
+        height: 19em;
         transition: height 1s ease,
         filter 1s ease;
     }

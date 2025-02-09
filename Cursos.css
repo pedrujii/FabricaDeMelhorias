@@ -104,6 +104,7 @@ h2{
     color: rgb(118, 255, 218);
     font-family: monospace;
     margin-top: 10px;
+    text-shadow: 0px 0px 10px rgb(169, 215, 255);
 }
 
 .cursos{
@@ -114,9 +115,11 @@ h2{
 }
 
 .cursos img:hover{
-    height: 25em;
+    height: 24em;
     filter: brightness(0.5);
     box-shadow: 0px 0px 10px cyan;
+    content: "XXXXXX";
+    color: aliceblue;
 }
 
 .cursos img{
@@ -164,6 +167,16 @@ h2{
     align-content: center;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
+    font-size: 2em;
+}
+
+#maisinf{
+    text-align: center;
+    background-color: #16003a;
+    color: aliceblue;
+    padding: 1em;
+    position: relative;
+    font-family: monospace;
     font-size: 2em;
 }
 
@@ -217,6 +230,9 @@ footer{
 }
 
 @media screen and (max-width: 760px){
+    #tit1{
+        font-size: 1.5em;
+    }
     nav{
         width: 17em;
         display: flex;
@@ -229,12 +245,24 @@ footer{
         visibility: hidden;
     }
     .content{
-        height: 95em;
+        height: 115em;
     }
     .cursos{
         display: grid;
     }
     .cursos img{
-        height: 18em;
+        height: 20em;
+    }
+    .cursos img:hover{
+        height: 21em;
+        transition: height 1s ease,
+        filter 1s ease;
+    }
+    svg{
+        height: 9em;
+        padding: 0;
+    }
+    .icons h1{
+        font-size: 4em;
     }
 }

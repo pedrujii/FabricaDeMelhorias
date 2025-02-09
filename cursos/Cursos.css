@@ -198,6 +198,9 @@ footer{
         display: flex;
         justify-content: center;
     }
+    .content{
+        height: 90vh;
+    }
     .itens{
         max-width: 100%;
     }
@@ -217,7 +220,7 @@ footer{
         height: 15em;
     }
     .cursos img:hover{
-        height: 19em;
+        height: 16em;
         transition: height 1s ease,
         filter 1s ease;
     }

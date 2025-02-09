@@ -119,6 +119,7 @@ footer{
     }
     .right h1{
         width: 100%;
+        font-size: 1.7em;
     }
     .right p{
         align-content: center;
@@ -133,7 +134,7 @@ footer{
         margin: 0;
     }
     .container{
-        height: 120vh;
+        height: 110vh;
     }
     nav{
         width: 12em;
@@ -148,7 +149,7 @@ footer{
         display: grid;
         align-content: baseline;
         width: 21em;
-        height: 35em;
+        height: 32em;
     }
     img{
         height: 0;

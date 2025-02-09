@@ -96,3 +96,71 @@ footer{
     align-content: center;
     color: aliceblue;
 }
+
+@media screen and (max-width: 1150px){
+    .container{
+        height: 130vh;
+    }
+    .left{
+        display: flex;
+        align-items: center;
+    }
+    .square{
+        width: 50em;
+        height: 40em;
+        display: grid;
+        justify-content: center;
+        justify-items: center;
+    }
+    .right{
+        display: grid;
+        justify-content: center;
+        justify-items: center;
+    }
+    .right h1{
+        width: 100%;
+    }
+    .right p{
+        align-content: center;
+        width: 140%;
+        height: 10em;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    body{
+        max-width: 100%;
+        margin: 0;
+    }
+    .container{
+        height: 120vh;
+    }
+    nav{
+        width: 12em;
+        display: flex;
+        justify-content: center;
+    }
+    a{
+        font-size:15px;
+        margin: 0.4em;
+    }
+    .square{
+        display: grid;
+        align-content: baseline;
+        width: 22em;
+        height: 35em;
+    }
+    img{
+        height: 0;
+        visibility: hidden;
+    }
+    #w{
+        margin-left: -1.1em;
+    }
+    .right p{
+        width: 130%;
+        font-size: 1.5em;
+        height: max-content;
+        padding: 0.7em;
+    }
+}

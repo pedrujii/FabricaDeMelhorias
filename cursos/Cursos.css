@@ -94,7 +94,7 @@ a{
 }
 
 .content{
-    height: 107vh;
+    height: 118vh;
     width: 100%;
     background-image: url(oficbackground.png);
     display: grid;
@@ -115,20 +115,20 @@ h2{
 }
 
 .cursos img:hover{
-    height: 24em;
+    height: 18em;
+    transition: height 1s ease,
+                filter 1s ease;
     filter: brightness(0.5);
     box-shadow: 0px 0px 10px cyan;
-    content: "XXXXXX";
     color: aliceblue;
 }
 
 .cursos img{
-    height: 22em;
+    height: 17em;
     border-radius: 2em;
     transition: height 1s ease,
                 filter 1s ease;
     filter: brightness(1);
-    z-index: 1;
     position: relative;
     cursor: pointer;
 }

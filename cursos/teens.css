@@ -148,7 +148,7 @@ footer{
     .square{
         display: grid;
         align-content: baseline;
-        width: 21em;
+        width: 23em;
         height: 30em;
     }
     img{

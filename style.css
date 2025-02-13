@@ -1092,7 +1092,6 @@ footer{
         display: grid;
         height: 4em;
         background-image:linear-gradient(#3300ab, #0158b0) ;
-
     }
     .topConteudo{
         width: 20em;
@@ -1225,12 +1224,5 @@ footer{
     iframe{
         width: 17em;
         height: 17em;
-    }
-}
-
-@media screen and (max-width: 430px){
-    /* FORMATAÇÃO PARA CELULARES ANTIGOS */
-    #balao1, #balao2, #balao3, #balao4{
-        width: 16em;
     }
 }

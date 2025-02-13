@@ -505,7 +505,7 @@ footer{
     .tablet{
         padding: 1em;
         margin-bottom: 2em;
-        margin-left: -40px;
+        margin-left: -25px;
     }
     #cam{
         margin-top: 1em;
@@ -546,7 +546,7 @@ footer{
     .square{
         width: 18em;
         height: 30em;
-        margin-left: -30px;
+        margin-left: -20px;
     }
     .textos{
         height: 35em;
@@ -572,6 +572,7 @@ footer{
         justify-content: center;
         align-content: center;
         height: 50em;
+        margin-left: -15px;
     }
 
     .wttBallon{
@@ -589,7 +590,6 @@ footer{
         justify-items: center;
         align-items: center;
         margin: 0;
-        margin-left: -15px;
         height: 50em;
     }
 

@@ -176,6 +176,18 @@ h1{
     margin-left: 1em;
 }
 
+#btnInsta{
+    background-image: linear-gradient(rgb(71, 71, 159), rgb(247, 0, 255), rgb(255, 255, 95));
+    border: 3px solid rgb(0, 0, 0);
+    text-shadow: 1px 1px 3px black;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    border-radius: 1em;
+    height: 3em;
+    width: 7em;
+    cursor: pointer;
+}
+
 #fundFot{
     height: 10em;
     border-radius: 100%;

@@ -610,7 +610,7 @@ footer{
     }    
 }
 
-@media screen and (max-width: 430px){
+@media screen and (max-width: 360px){
     .tablet{
         margin-left: 0px;
         width: 15em;

@@ -1226,7 +1226,7 @@ footer{
     }
 }
 
-@media screen and (max-width: 430px){
+@media screen and (max-width: 360px){
     #balao1, #balao2, #balao3, #balao4{
         margin-left: 0.12em;
         width: 12em;

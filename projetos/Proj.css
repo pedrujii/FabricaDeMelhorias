@@ -67,6 +67,7 @@ a{
 
 html{
     display: grid;
+    justify-content: center;
     overflow-x: hidden;
 }
 
@@ -74,6 +75,7 @@ body{
     margin: 0;
     padding: 0;
     justify-content: center;
+    display: grid;
     overflow-x: hidden;
 }
 
@@ -610,7 +612,7 @@ footer{
 
 @media screen and (max-width: 430px){
     .tablet{
-        margin-left: -4.5em;
+        margin-left: 0px;
         width: 15em;
         height: 15em;
     }
@@ -623,12 +625,19 @@ footer{
         height: 13em;
         width: 15em;
     }
-    .titAnim{
-        background-color: red;
-        max-width: 100%;
-    }
     .square{
         width: 15em;
-        margin
+        margin-left: 0;
+    }
+    .relatosContent{
+        width: 14em;
+        margin-left: 0;
+    }
+    .rightRelatos img{
+        width: 16em;
+        height: auto;
+    }
+    footer{
+        font-size: 1.5em;
     }
 }

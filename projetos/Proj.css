@@ -150,7 +150,6 @@ img{
 }
 
 .slides{
-    background-color: red;
     width: 400%;
     height: 400px;
     display: flex;
@@ -610,5 +609,26 @@ footer{
 }
 
 @media screen and (max-width: 430px){
-    /* FORMATAÇÃO PARA CELULARES ANTIGOS */
+    .tablet{
+        margin-left: -4.5em;
+        width: 15em;
+        height: 15em;
+    }
+    svg{
+        height: 0;
+        width: 0;
+        visibility: hidden;
+    }
+    .slider{
+        height: 13em;
+        width: 15em;
+    }
+    .titAnim{
+        background-color: red;
+        max-width: 100%;
+    }
+    .square{
+        width: 15em;
+        margin
+    }
 }

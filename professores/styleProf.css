@@ -195,6 +195,17 @@ h1{
     filter: drop-shadow(10px 10px 7px #0c003d);
 }
 
+footer{
+    background-color: black;
+    color: aliceblue;
+    font-family: monospace;
+    text-align: center;
+    align-content: center;
+    height: 2em;
+    width: 100%;
+    font-size: 2em;
+}
+
 @media screen and (max-width: 1200px) {
     .ptprof{
         display: grid;
@@ -277,5 +288,16 @@ h1{
     }
     .fundador{
         width: 17em;
+    }
+    footer{
+        font-size: 1.5em;
+    }
+}
+@media screen and (max-width: 360px) {
+    .pessoa{
+        width: 16em;
+    }
+    .fundador{
+        width: 16em;
     }
 }

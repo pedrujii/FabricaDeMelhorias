@@ -164,3 +164,17 @@ footer{
         padding: 0.7em;
     }
 }
+@media screen and (max-width: 360px) {
+    .container{
+        height: 50em;
+    }
+    .right h1{
+        margin-bottom: 1em;
+    }
+    .square{
+        padding: 0;
+        align-content: center;
+        width: 18em;
+        height: 39em;
+    }
+}
